@@ -13,3 +13,10 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+ 
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding: 0.5%;
+  }
