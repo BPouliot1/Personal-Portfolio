@@ -42,3 +42,8 @@
     width: 50px;
   }
   
+  header nav {
+    margin-right: 5%;
+    flex-grow: 2;
+    width: 100%;
+  }
