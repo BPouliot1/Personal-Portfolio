@@ -121,3 +121,14 @@
 .work .project-image-container img:hover {
   transform: scale(1.2);
 }
+
+.work .project-title {
+    display: inline-block;
+    background: var(--primary-color);
+    padding: 2%;
+    color: var(--secondary-color);
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 0;
+  }
