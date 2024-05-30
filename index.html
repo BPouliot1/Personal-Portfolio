@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Brandon's Personal Portfolio</title>
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brandon's Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div class = "header-container">
+        <div class="header-container">
             <h1>Brandon Pouliot Web Development Portfolio</h1>
-        </div>         
-        <img src="images/download.png" alt="Brandon Pouliot">
+        </div>
+        <img src="images/download.png" alt="Brandon Pouliot" class="profile-image">
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -22,44 +22,59 @@
             </ul>
         </nav>
         <section class="banner">
-        <img src="images/banner.png" alt="an abstract fire banner" />
-      </section>
+            <img src="images/banner.png" alt="An abstract fire banner" />
+        </section>
     </header>
 
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a closet shelving and shower door installer. 
-             I have been installing for the last 5 years. I am also an amature body builder. I workout pretty frequently 4-6 days a week.
-            I have competed in a couple of amature body building shows. I am taking time to learn coding 
-            in hopes to change careers to a less physical job and to have some form of creativity while I work.</p>
+            <p>I am a closet shelving and shower door installer, and an amateur bodybuilder who works out 4-6 days a week. I've competed in a couple of amateur bodybuilding shows. I am learning coding to transition to a less physically demanding career that allows for creative expression.</p>
         </section>
-    
+
         <section id="work" class="work-section">
-            <h2>My Work</h2>
-        </section>
-    
-        <section id="app1">
-            <h3>Film Scout</h3>
-            <a href="https://github.com/BPouliot1/movie-data.git"><img src="./images/Movie Database SS.jpg" alt="Film Scout"></a>
-            <p>This project was about creating a movie database using OMDB's movie database for movie poster and info and Youtubes database for video trailers</p>
+            <h3>My Work</h3>
+            <section class="main-project-image-container">
+                <a href="https://github.com/BPouliot1/movie-data.git">
+                    <img src="./images/Movie Database SS.jpg" alt="Film Scout Movie Database screenshot" />
+                </a>
+                <section class="project-title">
+                    <h4>Film Scout</h4>
+                    <p>HTML/CSS/JavaScript</p>
+                </section>
+            </section>
+
+            <div class="showcase">
+                <section class="project-image-container">
+                    <a href="https://github.com/BPouliot1/Education-Management-Application.git">
+                        <img src="images/Education Management SS.jpg" alt="Education-Management-Application screenshot" />
+                    </a>
+                    <section class="project-title">
+                        <h4>Education Management</h4>
+                        <p>Express/mySQL</p>
+                    </section>
+                </section>
+
+                <section class="project-image-container">
+                    <a href="https://github.com/BPouliot1/Random-Password-Generation.git">
+                        <img src="images/Random Password Generator SS.jpg" alt="Random Password Generator screenshot" />
+                    </a>
+                    <section class="project-title">
+                        <h4>Random Password Generator</h4>
+                        <p>HTML/CSS/JavaScript</p>
+                    </section>
+                </section>
+            </div>
         </section>
 
-        <section id="app2">
-            <h3>Education-Management-Application</h3>
-            <a href="https://github.com/BPouliot1/Education-Management-Application.git"><img src="images/Education Management SS.jpg" alt="Education-Management-Application"></a>
-            <p>This project was created to help teachers manage classes and students by adding and removing classes from their schedule.</p> 
-        </section>
-
-        <section id="app3">
-            <h3>Random Password Generator</h3>
-            <a href="https://github.com/BPouliot1/Random-Password-Generation.git"><img src="images/Random Password Generator SS.jpg" alt="Random-Password-Generation"></a>
-            <p>This project was created in order to automatically create a random password using numbers, letters, and symbols depending on user input.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: brandonpouliot@gmail.com</p>
+        <section id="contact" class="contact-section">
+            <h3>Contact Me</h3>
+            <ul>
+                <li>777-777-7777</li>
+                <li>brandonpouliot@gmail.com</li>
+                <li><a href="https://github.com/BPouliot1">GitHub</a></li>
+            </ul>
         </section>
     </main>
+</body>
 </html>
