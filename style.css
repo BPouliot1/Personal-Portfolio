@@ -180,3 +180,9 @@
     display: flex;
     justify-content: space-around;
   }
+
+  .contact section ul li {
+    border-bottom: 3px solid var(--primary-color);
+    font-size: 125%;
+    color: var(--secondary-color);
+  }
