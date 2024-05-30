@@ -154,3 +154,8 @@
     flex-wrap: wrap;
     width: 100%;
   }
+
+  .showcase .project-image-container {
+    width: 49.5%;
+    margin: 0.5% 0;
+  }
