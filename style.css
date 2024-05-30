@@ -191,3 +191,9 @@
     display: flex;
     justify-content: center;
   }
+  
+  footer p {
+    font-size: 125%;
+    color: var(--secondary-color);
+    margin: 1.5%;
+  }
