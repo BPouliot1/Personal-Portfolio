@@ -186,3 +186,8 @@
     font-size: 125%;
     color: var(--secondary-color);
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
