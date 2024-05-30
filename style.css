@@ -103,3 +103,9 @@
   text-align: right;
       flex: 1 0 170px;
 }
+
+.about section p {
+    line-height: 1.5;
+    font-size: 150%;
+    margin: 1.5% 0;
+  }
