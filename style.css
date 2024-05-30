@@ -81,3 +81,25 @@
     padding: 0.5%;
   }
   
+  .about, .work, .contact, .resume {
+    display: flex;
+    flex-direction: column;
+}
+.about section,
+.work .projects,
+.contact section,
+.resume section {
+    padding: 20px;
+    margin-left: 10px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.about h3,
+.work h3,
+.contact h3,
+.resume h3 {
+  font-size: 400%;
+  color: var(--secondary-color);
+  text-align: right;
+      flex: 1 0 170px;
+}
