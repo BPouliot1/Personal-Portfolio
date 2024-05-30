@@ -171,3 +171,12 @@
   .showcase .project-image-container img {
     width: 100%;
   }
+
+  .contact section {
+    width: 100%;
+  }
+
+  .contact section ul {
+    display: flex;
+    justify-content: space-around;
+  }
