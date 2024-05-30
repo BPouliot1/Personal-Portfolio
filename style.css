@@ -167,3 +167,7 @@
   .showcase .project-image-container:nth-child(odd) {
     margin-right: 0.5%;
   }
+
+  .showcase .project-image-container img {
+    width: 100%;
+  }
