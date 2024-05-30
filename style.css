@@ -74,3 +74,10 @@
     border-radius: 0;
     min-height: 300px;
   }
+
+  main {
+    max-width: 1000px;
+    margin: 5% auto;
+    padding: 0.5%;
+  }
+  
