@@ -146,3 +146,11 @@
   margin-top: 2%;
   font-size: 125%;
 }
+
+.showcase {
+    margin: 0 auto;
+    margin-top: 1.4%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
