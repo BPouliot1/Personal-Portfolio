@@ -159,3 +159,11 @@
     width: 49.5%;
     margin: 0.5% 0;
   }
+
+  .showcase .project-image-container:nth-child(even) {
+    margin-left: 0.5%;
+  }
+
+  .showcase .project-image-container:nth-child(odd) {
+    margin-right: 0.5%;
+  }
