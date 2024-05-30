@@ -220,3 +220,8 @@
     .resume section {
       border-left: none;
     }
+
+    .contact section {
+        margin: 0;
+      }
+    }
