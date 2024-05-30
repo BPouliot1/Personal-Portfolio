@@ -213,3 +213,10 @@
     .resume h3 {
       text-align: center;
     }
+
+    .about section,
+    .work .projects,
+    .contact section,
+    .resume section {
+      border-left: none;
+    }
