@@ -206,3 +206,10 @@
     .resume {
       flex-direction: column;
     }
+
+    .about h3,
+    .work h3,
+    .contact h3,
+    .resume h3 {
+      text-align: center;
+    }
