@@ -262,3 +262,13 @@
       .showcase .project-image-container:nth-child(odd) {
         margin: 0.5% 0;
       }
+
+      .contact section ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact section ul li {
+        margin: 1%;
+      }
+    }
