@@ -225,3 +225,9 @@
         margin: 0;
       }
     }
+
+    @media screen and (max-width: 583px) {
+
+      header {
+        flex-direction: column;
+      }
