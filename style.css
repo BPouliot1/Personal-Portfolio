@@ -254,4 +254,6 @@
         text-decoration: none;
       }
 
-      
+      .showcase .project-image-container {
+        width: 100%;
+      }
