@@ -12,6 +12,10 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: var(--text-color);
   }
  
   .header-container {
@@ -21,13 +25,17 @@
     padding: 0.5%;
   }
 
-  header section {
+  header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 1em 0;
+    text-align: center;
   }
   
-  header section h1 {
+  header h1 {
     font-size: 400%;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -36,7 +44,7 @@
     padding-right: 1%;
   }
   
-  header section img {
+  header img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
