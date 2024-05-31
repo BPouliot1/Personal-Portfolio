@@ -240,3 +240,12 @@
       header section img {
         margin-top: 1%;
       }
+
+      header nav {
+        margin: 0;
+       }
+
+       header nav ul {
+        flex-direction: column;
+        margin: 0;
+      }
