@@ -71,11 +71,21 @@
     align-items: center;
     height: 100%;
   }
+
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
   
   header nav ul li a:hover {
     color: var(--light);
     background-color: var(--primary-color);
   }
+  
+  .navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
   header .banner {
     position: relative;
